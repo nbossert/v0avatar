@@ -1,3 +1,4 @@
 node_modules/
 package.json.backup
 prisma/dev.db
+prisma/.cache
