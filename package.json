@@ -13,5 +13,8 @@
     "react-dom": "latest",
     "@prisma/client": "latest",
     "zustand": "latest"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.2"
   }
 }
