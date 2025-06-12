@@ -4,11 +4,11 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:dev.db"
+  url      = env("DATABASE_URL")
 }
 
 model Game {
   id        String   @id @default(cuid())
-  pars      Int[]
+  pars      String   @db.Text
   createdAt DateTime @default(now())
 }
